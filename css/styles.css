@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*CENTRO DE LA PAGINA CUADRO BLANCO*/
+    #global{
+        width: 65%;
+        margin: 0px auto;
+        margin-top: 30px;
+        padding: 25px;
+        background: white;
+        box-shadow: 0px 0px 20px black;
+    }
+
+ /*TEXTO PRINCIPAL DE LA PAGINA*/   
+    #logo{
+        font-family: Verdana,Arial;
+        font-size: 30px;
+        letter-spacing: 4px;       
+        color: #323330;        
+        text-align: center;
+        width: 385px;
+        height: 80px;
+        margin-bottom: 20px;
+        float: left;
+        line-height:75px;
+    }
+
+ /*MENU DE LA PAGINA*/   
+    #menu{
+        font-family: Arial, Helvetica, sans-serif;      
+        width: 100%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    #menu ul{
+        line-height: 46px;
+        list-style: none;
+    }
+
+    #menu ul li{
+        height: 46px;
+        display: inline-block;
+        transition: all 300ms;        
+    }    
+    
+    #menu ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+   /*CODIGO PARA LA PARTE DEL ARTICULO*/ 
+    #posts{
+        width: 60%;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .post h2{
+        font-size: 30px;
+        color:#333;
+        padding: 7px;
+    } 
+
+    .post .date{
+        display: block;
+        color: gray;
+        margin-top: 10px;        
+    }
+
+    .post p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .button{
+        padding: 14px;   
+        text-decoration: none;
+        margin-top: 10px;
+        display: block;
+        width: 70px;
+        font-size: 14px;
+        text-align: center;
+        color:white;
+        margin-bottom: 20px;
+    }
+
+    /*CODIGO PARA LA PARTE DEL SIDEBAR*/
+
+    #sidebar{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 31%;
+        float: right;
+    }
+
+    #sidebar h4{
+        margin-top:50px;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 10px;
+        color: #333;
+        background: url("../img/lines.png") repeat-x;
+    }
+
+    #sidebar h4 span{
+        background: white;
+        padding: 5px;
+    }
+
+    #sidebar img{
+        width: 100%;
+    }
+
+    #sidebar p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    /*CODIGO PARA EL FORMULARIO*/
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="email"],
+    form input[type="number"],  
+    select{
+        padding: 5px;
+        border-radius: 2px;       
+        width: 100%;
+        margin-bottom: 10px;      
+        margin-top: 5px;
+    }
+    
+    form input[type="submit"]{     
+        padding: 10px; 
+        cursor: pointer;
+        margin:0px auto;
+        display: block;
+        width: 50%; 
+    }
+
+    footer{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        height: 47px;
+        background: rgba(51,51,51,0.70);
+        margin: 0px auto;
+        width: 65%;
+        padding-left: 25px;
+        padding-right: 25px;      
+        line-height: 47px;  
+        text-align: center;        
+    }
+    /*CODIGO PARA MODIFICAR PROPIEDADES DEL SLIDER*/
+    .bx-wrapper,.bx-viewport{
+        height: 250px !important;
+    }    
+    .bx-wrapper .bx-caption span{
+        text-align: center !important;
+    }
+    .bxslider img{
+        height: 250px;
+        z-index:1; 
+        width:100%;
+    }
+
+    /*estilos para el selector de temas*/
+    #selector-theme{
+        position: fixed;
+        top: 40%;
+        background: rgba(51,51,51,0.5);
+        width: 50px;
+        height: 100px;
+    }
+
+    #to-morado,#to-azul,#to-gris{
+         width: 25px;
+         height: 25px;
+         border: 1px solid white;
+         display: block;
+         margin: 0px auto;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         cursor: pointer;
+    }
+
+    #to-morado{
+        background: #812878;
+    }
+
+    #to-azul{
+        background: #1c5a6f;
+    }
+
+    #to-gris{
+        background:#dce5df;
+    }
+    
+    /*link para subir la pagina*/
+       .subir{
+        width: 25px;
+        height: 25px;    
+        border-radius: 50%;
+        background: #C884D9;
+        border: 1px solid black;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: white;
+
+        display:block;
+        float:right;
+        margin-top: 10px;
+    }
+
+    /*datos del local storage*/ 
+     #identificate h1{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    #identificate p{
+        text-align: center; 
+        font-size: 20px;     
+    }
+
+    #identificate a{
+        text-align: center;
+        color: grey;
+        text-decoration:none;
+        font-size: 15px;  
+    }
+     
+    /*codigo para el plugin acordeon dentro del div*/
+    #box{
+        width: 60%;
+        float: left;
+        margin-top: 40px;
+    }
+    
+    #acordeon{
+        margin-top: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+        color:#333;
+        padding: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+   /*codigo para el div reloj*/
+   #reloj{
+       font-size: 30px;
+       font-weight: bold;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #333;
+       border:5px solid #333;
+       width: 30%;
+       padding: 30px;
+       margin: 0 auto;
+   } 
+    
+   .time{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;   
+    width: 30%;
+    padding: 30px;
+    margin: 0 auto;
+   }
+
+   #form-contact{
+       width: 50%;
+       margin-top: 15px;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+
+   #form-contact label{
+       width: 100%;
+       display: block;
+       margin-top: 5px;
+   }
+

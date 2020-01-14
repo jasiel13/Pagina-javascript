@@ -1,0 +1,64 @@
+
+/*TODA LA PAGINA*/
+body {
+    /* Ubicación de la imagen */    
+    background-image: url(../img/fondo2.jpg);    
+    /* Para dejar la imagen de fondo centrada, vertical y  
+    horizontalmente */    
+    background-position: center center;    
+    /* Para que la imagen de fondo no se repita */    
+    background-repeat: no-repeat;    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;    
+    /* Se muestra un color de fondo mientras se está cargando la imagen    
+    de fondo o si hay problemas para cargarla */    
+    background-color: #339494;    
+    }
+    
+#logo{   
+    background: #F0DB4F;    
+}
+
+/*codigo menu*/
+#menu{  
+    background:#6cc3b9;  
+}
+
+#menu ul li:hover{
+    background:#1c5a6f;
+}
+
+/*botones*/
+.button{
+    background:#339494;    
+}
+
+/*CODIGO PARA EL FORMULARIO*/
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select{   
+    border-color: #ccc;
+    border: 1px solid #339494;    
+    box-shadow: 0px 0px 3px black;   
+}
+
+form input[type="submit"]{
+    background: #339494;    
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0px 0px 3px black;   
+}
+/*cambiar color de boton up*/
+.subir{    
+    background:#339494;
+}
+
+/*codigo para el acordeon*/
+.ui-state-active{
+    border: 1px solid #1c5a6f !important;
+    background: #339494 !important;   
+   }
